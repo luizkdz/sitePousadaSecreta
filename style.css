@@ -1,0 +1,144 @@
+*{
+    margin:0;
+}
+body{
+    font-family:'Source Sans Pro', sans-serif;
+    margin:0;
+}
+.linksCabecalho{
+    display:flex;
+    
+}
+.cabecalho{
+    width:100%;
+    background-color:#c5c6c7;
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+}
+.cabecalho p {
+    margin:20px;
+}
+
+.banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:600px;
+    background-image: url('assets/img-fundo.jpg');
+}
+
+.banner p{
+    line-height: 80px;
+    color:white;
+    font-size:50px;
+    border:2px solid white;
+}
+.carrousel{
+    text-align: center;
+}
+
+.carrousel p{
+    text-align:center;
+}
+.card img{
+    width:150px;
+    height:150px;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+}
+.grid{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.rota{
+    margin:20px;
+    text-align: center;
+}
+.sobreNos{
+    margin:20px;
+    text-align: center;
+}
+.cardSobreNos{
+    font-size:15px;
+    margin:10px;
+    width:40%;
+    display:flex;
+    flex-direction: row;
+}
+.gridSobreNos{
+    flex-wrap:wrap;
+    margin:20px;
+    height:50%;
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.cardSobreNos img{
+
+    width:100px;
+    height:150px;
+}
+
+.containerGrid{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.rodape{
+    padding:20px;
+    background-color: #45A29E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rodape p{
+    color:#fff;
+}
+.contatoEIcones{
+    color:#fff;
+}
+.contatoEicones p{
+
+}
+.desenvolvidoPor{
+    background-color:#45A29E;
+    text-align: center;
+}
+iframe{
+    
+}
+
+a{
+    color: #fff;
+    text-decoration:none;
+}
+.link-topo{
+    color:#fff;
+    text-decoration: none;
+
+}
+
+.texto-azul{
+    color:blue;
+}
+
+.linkQuarto{
+    border-bottom: 2px solid green;
+}
+
+.carrousel h1{
+    margin:20px;
+}
+.carrousel p{
+    margin:20px;
+}
